@@ -16,7 +16,9 @@ arm64 등의 다른 architecture 용이 필요하시면 [issues](https://github.
 
 ### Installation
 
-[aps-build.bat](https://github.com/lustrozdo/aps-build/blob/main/aps-build.bat) 파일을 다운받아서 바로 실행해주세요.
+[aps-build.bat](https://github.com/lustrozdo/aps-build/blob/main/aps-build.bat) 파일을 다운받은 후 바로 실행하면 됩니다.
+
+혹시 브라우저에서 보안 때문에 다운로드가 안될 경우 무시하고 다운 받거나 파일 내용을 본인 PC 에 Copy & Paste 하셔도 됩니다.
 
 그 과정에서 app signing 에 필요한 keystore 가 존재하지 않으면 임의로 생성하게 됩니다.
 
