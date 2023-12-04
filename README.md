@@ -12,7 +12,7 @@ app, wear 모듈의 full-release.apk 를 생성합니다.
 
 현재 Windows (x64) 용 빌드 스크립트만 준비된 상태입니다.
 
-arm64 등의 다른 architecture 용이 필요하시면 issues 에 요청 바랍니다.
+arm64 등의 다른 architecture 용이 필요하시면 [issues](https://github.com/lustrozdo/aps-build/issues) 에 요청 바랍니다.
 
 ### Installation
 
