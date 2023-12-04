@@ -25,6 +25,8 @@ keystore 생성 시 사용되는 비밀번호는 aps-key-pass.txt 파일을 참�
 
 aps-build.bat 파일이 있는 폴더에 복사하고 android-aps.jks 로 파일명을 변경해주시면 됩니다.
 
+빌드 과정이 지난 후 생성된 apk 파일은 apk-20231203 과 같은 형식의 output 폴더에 저장됩니다.
+
 ## License
 
 This project is licensed under the MIT License.
