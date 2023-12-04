@@ -31,4 +31,4 @@ aps-build.bat 파일이 있는 폴더에 복사한 후 android-aps.jks 로 파�
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
