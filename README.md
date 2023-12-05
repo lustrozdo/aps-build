@@ -14,9 +14,15 @@ app, wear 모듈의 full-release.apk 를 생성합니다.
 
 arm64 등의 다른 architecture 용이 필요하시면 [issues](https://github.com/lustrozdo/aps-build/issues) 에 요청 바랍니다.
 
+우선 [prerequisite.bat](https://github.com/lustrozdo/aps-build/blob/main/prerequisite.bat) 파일을 다운 받은 후 실행해주시기 바랍니다. 
+
+aps build 에 필요한 Git, OpenJDK 프로그램이 설치됩니다.
+
 ### Installation
 
-[aps-build.bat](https://github.com/lustrozdo/aps-build/blob/main/aps-build.bat) 파일을 다운받은 후 바로 실행하면 됩니다.
+prerequisite.bat 를 실행하신 후에
+
+[aps-build.bat](https://github.com/lustrozdo/aps-build/blob/main/aps-build.bat) 파일을 다운받은 후 실행하면 빌드가 진행됩니다.
 
 혹시 브라우저에서 보안 때문에 다운로드가 안될 경우 무시하고 다운 받거나 파일 내용을 본인 PC 에 Copy & Paste 하셔도 됩니다.
 
