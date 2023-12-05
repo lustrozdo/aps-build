@@ -80,7 +80,7 @@ if not exist %keypath% (
 zipalign -v -p 4 %appoutdir%\app-full-release-unsigned.apk %appoutdir%\app-full-release-unsigned-aligned.apk
 zipalign -v -p 4 %wearoutdir%\wear-full-release-unsigned.apk %wearoutdir%\wear-full-release-unsigned-aligned.apk
 
-SET builddir=%curdir%\aps-%date:-=%
+SET builddir=%curdir%\aps-outputs
 mkdir %builddir%
 
 call apksigner sign --ks %keypath% --ks-pass file:%keypasspath% --out %builddir%\app-full-release.apk %appoutdir%\app-full-release-unsigned-aligned.apk
@@ -89,6 +89,8 @@ call apksigner sign --ks %keypath% --ks-pass file:%keypasspath% --out %builddir%
 cd %curdir%
 
 call rmdir /S /Q %curdir%\%subkey1%
+
+pause
 
 
 
