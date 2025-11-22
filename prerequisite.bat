@@ -16,7 +16,7 @@ SET openjdkinstaller=openjdk_install.msi
 curl -o %gitinstaller% -L https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe 
 %gitinstaller% /SILENT
 
-curl -o %openjdkinstaller% -L https://aka.ms/download-jdk/microsoft-jdk-17.0.9-windows-x64.msi
+curl -o %openjdkinstaller% -L https://aka.ms/download-jdk/microsoft-jdk-21.0.5-windows-x64.msi
 msiexec /i %openjdkinstaller% ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome INSTALLDIR="c:\Program Files\Microsoft" /passive
 
 cd %curdir%
